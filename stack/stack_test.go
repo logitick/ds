@@ -1,9 +1,8 @@
 package stack
 
 import (
-	"testing"
-
 	"github.com/stretchr/testify/assert"
+	"testing"
 )
 
 func TestStack_Push(t *testing.T) {
