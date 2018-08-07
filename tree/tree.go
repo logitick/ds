@@ -21,6 +21,17 @@ type BinarySearchTree struct {
 	root *Node
 }
 
+// New creates a new instance of a BST
+func New() *BinarySearchTree {
+	return &BinarySearchTree{root: nil}
+}
+
+// Size counts the number of nodes inside the tree
 func (t *BinarySearchTree) Size() int {
 	return 0
+}
+
+// Insert wraps the value in a Node and adds it to the tree
+func (t *BinarySearchTree) Insert(v interface{}) {
+
 }
